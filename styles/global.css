@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+.categories,
+.recipes,
+.chef,
+.instagram,
+.extra-recipes,
+.subscribe,
+.footer,
+.blog,
+.contact-hero {
+    padding: 80px 0;
+}
+
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+/* FOODIELAND LOGO */
+.logo {
+    color: #000;
+    font-family: Lobster;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.logo .dot {
+    color: #FF7426;
+    font-family: Lobster;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: none;
+}
+
+
+/* BUTTON + ICON */
+.btn-and-icon {
+    display: inline-flex;
+    width: fit-content;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 32px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.btn-and-icon span {
+    font-size: 14px;
+}
+.btn-and-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+
+/* BUTTON - ICON */
+.btn {
+    display: inline-flex;
+    width: fit-content;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 32px;
+    background: #E7FAFE;
+    color: #000;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.btn span {
+    font-size: 14px;
+}
+
+.logo-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* TOP NAV BAR */
+.header {
+    padding: 3.2rem 6.5rem 3.2rem 6.5rem;
+    border-bottom: 1px solid #e3e3e3;
+    color: #ffffff;
+}
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.brand-logo {
+    height: 1.5rem;
+    width: auto;
+}
+.nav-menu {
+    display: flex;
+    gap: 4.5rem;
+    list-style: none;
+}
+.nav-menu a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.sm-icons {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+/* FOOTER */
+.footer-top {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.footer-brand p {
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.nav-menu {
+    display: flex;
+    gap: 4.5rem;
+    list-style: none;
+}
+
+
+/* Bottom */
+.footer-bottom {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* centers paragraph */
+    padding-top: 48px;
+    border-top: 1px solid #eee;
+}
+.copyright {
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.36px;
+}
+.powered {
+    color: #FF7967;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.36px;
+}
+.footer-socials {
+    position: absolute;
+    right: 0;
+    display: flex;
+    gap: 3rem;
+}

@@ -1,106 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
-}
-
-.categories,
-.recipes,
-.chef,
-.instagram,
-.extra-recipes {
-    padding: 80px 0;
-}
-
-.container {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0 24px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
-
- /* Buttons and Icon */
-.btn-and-icon {
-    display: inline-flex;
-    width: fit-content;
-    align-items: center;
-    gap: 12px;
-    padding: 16px 32px;
-    background: black;
-    color: white;
-    border: none;
-    border-radius: 12px;
-    cursor: pointer;
-}
-
-.btn-and-icon span {
-    font-size: 14px;
-}
-
-.btn-and-icon img {
-    width: 24px;
-    height: 24px;
-}
-
-/* Buttons 2 */
-.btn {
-    display: inline-flex;
-    width: fit-content;
-    align-items: center;
-    gap: 12px;
-    padding: 16px 32px;
-    background: #E7FAFE;
-    color: #000;
-    border: none;
-    border-radius: 12px;
-    cursor: pointer;
-}
-
-.btn span {
-    font-size: 14px;
-}
-
-/* Navigation Bar */
-.header {
-    padding: 3.2rem 6.5rem 3.2rem 6.5rem;
-    border-bottom: 1px solid #e3e3e3;
-    color: #ffffff;
-}
-
-.navbar {
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-}
-
-.brand-logo {
-    height: 1.5rem;
-    width: auto;
-}
-
-.nav-menu {
-    display: flex;
-    gap: 4.5rem;
-    list-style: none;
-}
-
-.nav-menu a {
-    text-decoration: none;
-    color: #000;
-    font-weight: 600;
-    font-size: 1.2rem;
-}
-
-.sm-icons {
-    display: flex;
-    align-items: center;
-    gap: 3rem;
-}
-
-
 /* Herosection */
 .hero {
     display: flex;
@@ -857,12 +754,13 @@ float float-2 {
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
+    padding-left: 40px;
 }
 
 .extra-recipe-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
+    gap: 12px;
 }
 
 
@@ -932,3 +830,101 @@ float float-2 {
     width: 20px;
     height: 20px;
 }
+
+.subscribe-banner {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E7F9FD;
+    width: 100%;
+    height: 442px;
+    border-radius: 4rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.subscribe-banner h1 {
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.92px;
+}
+
+.subscribe-banner p {
+    color: rgba(0, 0, 0, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 620px;
+    margin-top: 24px;
+    margin-bottom: 64px;
+}
+
+.subscribe-form {
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    width: 480px;
+    height: 80px;
+    border-radius: 20px;
+    background: #FFF;
+    padding: 8px;
+}
+
+.subscribe-form input {
+    border: none;
+    padding: 14px 18px;
+    font-size: 14px;
+    outline: none;
+    flex: 1;
+}
+
+.subscribe-form button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 0 24px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.subscribe-image {
+    position: absolute;
+    right: -40px;
+    bottom: -20px;
+}
+
+.subscribe-image img {
+    width: 220px;
+    height: auto;
+    object-fit: contain;
+}
+
+.float-5 { 
+    position: absolute;
+    left: -130px;
+    bottom: -130px;
+    width: 409.544px;
+    height: 400.08px;
+    object-fit: contain;
+}
+.float-6 {
+    position: absolute;
+    right: -100px;
+    bottom: -120px;
+    width: 360px;
+    height: auto;
+    object-fit: contain;
+}
+
+
+
+
+

@@ -1,41 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
 
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/global.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 
-
 <body>
-    <!-- Navbar Design -->
     <Header class="header">
-        <!-- Brand Logo -->
+
         <nav class="navbar">
-            <a class="">
-                <img src="/assets/Logo/Foodieland..svg" alt="Brand-logo" class="brand-logo">
-            </a>
+            <div class="brand-logo">
+                <a href="index.html" class="logo-link">
+                    <h3 class="logo">
+                        Foodieland<span class="dot">.</span>
+                    </h3>
+                </a>
+            </div>
+        
             <!-- Page links on Navbar -->
             <ul class="nav-menu">
                 <li>
-                    <a href="">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                  <li>
                     <a href="">Recipes</a>
                 </li>
                 <li>
-                    <a href="">Blog</a>
+                    <a href="blog.html">Blog</a>
                 </li>
                  <li>
-                    <a href="">Contact</a>
+                    <a href="contact.html">Contact</a>
                 </li>
                 <li><a href=""> About Us</a></li>
             </ul>
+
             <!-- Social Media Icons -->
             <div class="sm-icons">
                 <a href="">
@@ -50,10 +54,7 @@
             </div>
         </nav>
     </Header>
-
-    <!-- Main Website Sections -->
     <main>
-        <!-- Hero Section -->
         <Section class="hero">
 
             <div class="left-rectangle">
@@ -114,7 +115,6 @@
             </div>
         </Section>
 
-        <!-- Categories Section -->
         <section class="categories">
             <div class="container">
                 <div class="cat-header">
@@ -164,7 +164,6 @@
             </div>
         </section>
 
-        <!-- Recipes Card -->
         <section class="recipes">
             <div class="container">
 
@@ -384,7 +383,6 @@
             </div>
         </section>
 
-        <!-- Chef Section -->
         <section class="chef">
             <div class="chef-container">
                 <div class="chef-left-content">
@@ -409,7 +407,6 @@
             </div>
         </section>
 
-        <!-- Instagram Section -->
         <section class="instagram">
             <div class="container">
 
@@ -865,15 +862,64 @@
                             </div>
                         </div>
                     </article>
-
                 </div>
             </div>
         </section>
+        
+        <Section class="subscribe">
+            <div class="container">
+                <div class="subscribe-banner">
+                    <h1>Deliciousness to your inbox</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Enter your email address" required/>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+
+                    <img src="/assets/images/kisspng-salad-salad-fresh-food-healthylife-vegetables-vegetarian-5d42e3a7cb8543 1.png" alt="salad-salad-fresh-food" class="float float-5" />
+                    <img src="/assets/images/Photo.png" alt="Plate-of-food" class="float float-6" />
+                </div>
+            </div>
+        </Section>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h3 class="logo">
+                        Foodieland<span class="dot">.</span>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
 
+                <div class="nav-menu">
+                    <a href="#">Recipes</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                    <a href="#">About us</a>
+                </div>
+            </div>
 
-    <Footer>
+            <div class="footer-bottom">
+                <p class="copyright">
+                        © 2025 Foodieland.<span class="powered"> Powered by Webflow</span>
+                </p>
 
-    </Footer>
+                <div class="footer-socials">
+                    <a href="">
+                        <img src="/assets/Icons/001-facebook.svg" alt="facebook icon">
+                    </a>
+                    <a href="">
+                        <img src="/assets/Icons/003-twitter.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="/assets/Icons/004-instagram.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
